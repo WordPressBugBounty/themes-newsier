@@ -1,0 +1,41 @@
+:root {
+	--pri-color: #008080;
+	--secondary-color: #000;
+	--head-color: #000;
+	--stext-color: #000;
+	--text-color: #4C4C4C;
+	--text-color2: #6e6e6e;
+	--wtext-color: #fff;
+	--bg-color: transparent;
+	--bg-color2: #f1f1f1;
+	--border-color: #e2e8f0;
+	--box-color: transparent;
+	--box-color2: #fff;
+	--blog-backcolor: #fff;
+	--blog-color: #6e6e6e;
+	--cat-color: var(--pri-color);
+	--cat-text-color: #fff;
+	--wrap-color: #fff;
+	--title-color: #fff;
+	--title-bg: var(--pri-color);
+	--title-border: #5e5e5e80;
+	--grady-color: linear-gradient(90deg, var(--secondary-color) 1.18%, var(--pri-color) 74.96%);
+/* header */
+	--headbg-color: #fff;
+	--headmenu-color: #000; 
+/* footer  */
+	--ftbackcolor: #161d2a;
+	--ftwtitile-color: #000;
+	--ftwtext-color: #fff;
+}
+.bs-widget-title.one .title, .bs-widget-title.one .title, .widget_block .wp-block-heading, .widget_block .wp-block-search__label{
+	background-color: transparent;
+	color: var(--head-color);
+}
+.wp-block-heading:after, .wp-block-search__label:after{
+	background-color: var(--wrap-color);
+}
+.bs-widget-title.one .title span, .widget_block .wp-block-heading span, .widget_block .wp-block-search__label span {
+	background: var(--pri-color);
+	color: #fff;
+}

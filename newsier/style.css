@@ -1,0 +1,97 @@
+/*
+Theme Name: Newsier
+Theme URI: https://themeansar.com/free-themes/newsier-free-magazine-blog-wordpress-theme/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Newsier is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newsier is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newsier is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/newspaperup/newsier/ and documentation at https://docs.themeansar.com/docs/newspaperup/
+Version: 0.2
+Requires PHP: 7.0
+Requires at least: 5.4
+Tested up to: 6.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: newspaperup
+Text Domain: newsier
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Newsier WordPress Theme is child theme of Newspaperup, Copyright 2024 Themeansar
+Newsier is distributed under the terms of the GNU General Public License v3
+
+Newsier is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+:root{
+    --bxbra: 10px ;
+    --Fontheading: "Quicksand", sans-serif;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: 700;
+}
+.bs-blog-post .title, .bs-widget-title.one .title, .widget_block .wp-block-heading, .widget_block .wp-block-search__label, .site-branding-text .site-title, .bs-latest-news .bn_title .title{
+    font-weight: 700;
+}
+.mainfeatured.three .multi-post-widget .inner_columns{
+    gap: 1.5rem;
+}
+.mainfeatured.three .bs-slide.bs-blog-post.three.lg {
+    height: 490px;
+    border-radius: var(--bxbra);
+}
+.mainfeatured.three .multi-post-widget .bs-blog-post.three.bsm {
+    height: 233.5px;
+    border-radius: var(--bxbra);
+}
+.mainfeatured.three .homemain {
+    border-radius: var(--bxbra);
+}
+.right-nav .msearch, .right-nav .switch{
+    display: none !important;
+}
+.navbar-wp nav{
+    justify-content: center;
+}
+.bs-widget-title.one .title, .widget_block .wp-block-heading, .widget_block .wp-block-search__label{
+    padding: 0;
+}
+.mainfeatured.three .bs-slide.bs-blog-post.three.lg .inner {
+    padding: 20px;
+}
+.widget_block .wp-block-heading, .widget_block .wp-block-search__label{
+    padding-right: 10px;
+}
+.bs-widget-title.one .title span, .widget_block .wp-block-heading span, .widget_block .wp-block-search__label span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.bs-blog-post.single .small.single, .bs-blog-post .bs-blog-thumb + .small{
+    padding-top: 20px;
+}
+.bs-blog-post .small{
+    padding-top: 0;
+}
+.newspaperup-pagination{
+    margin-top: 50px;
+}
+.screen-reader-text{
+    transition: none;
+}
+.bs-menu-full .main{
+    padding: 10px 0;
+}
+.bs-menu-full .logo{
+    padding: 0;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+@media (max-width: 767.98px) { 
+    header .site-branding-text {
+      text-align: start;
+    }
+}
